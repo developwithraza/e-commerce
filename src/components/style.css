@@ -1,0 +1,94 @@
+
+  .mainSection{
+    height: 100vh;
+    width: 100vw;
+  }
+  .sideItemTitle{
+    margin-top: 10px;
+  }
+ .navbar-nav a.acive{
+        color: yellow;
+  }
+  .foodCard{
+    margin: 8px;
+  }
+  .cardItem{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .allcartInfo{
+    width: calc(100vw - 62vw);
+    height:  calc(100vh - 50vh);
+    display: flex;
+  
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+  }
+  .allcartInfo:hover{
+    -webkit-box-shadow: 5px 5px 15px -1px #000000; 
+box-shadow: 5px 5px 15px -1px #000000;
+  }
+  .allcartInfos{
+    width: calc(100vw - 40vw);
+    height:  calc(100vh - 40vh);
+    display: flex;
+  padding: 10px;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+  }
+  .allcartInfos:hover{
+    -webkit-box-shadow: 5px 5px 15px -1px #000000; 
+box-shadow: 5px 5px 15px -1px #000000;
+  }
+  .emptycart{
+    width: calc(100vw - 40vw);
+    height:  calc(100vh - 40vh);
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 10px;
+  }
+  .emptycart:hover{
+    -webkit-box-shadow: 5px 5px 15px -1px #000000; 
+box-shadow: 5px 5px 15px -1px #000000;
+  }
+  .cartInfo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .rightSide p{
+    font-size: 16px;
+  }
+  .addcart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: rgb(208, 204, 252);
+    padding: 10px;
+    flex-direction: column;
+  }
+  #addData{
+    margin-top: 10px;
+  }
+  .totalAmout{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .showEmpty{
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  }
